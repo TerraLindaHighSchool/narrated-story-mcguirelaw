@@ -15,8 +15,8 @@ public class Button extends Actor
     private static final Color transparent = new Color(0,0,0,0);
     private GreenfootImage background;
     private String prefix;
-    private GreenfootSound narration = new GreenfootSound ("javaaudio.mp3");
-    
+    private GreenfootSound narration = new GreenfootSound ("audio.mp3");
+   
     public void act()
     {
         if(Greenfoot.mouseClicked(this) && !narration.isPlaying())
